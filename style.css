@@ -3,11 +3,15 @@ body{
     background: cadetblue;
     font-size: 1rem;
     font-family: Arial;
+
+}
+.h2{
+
 }
 .contanner{
     margin: 0 auto;
     width: 95%;
-    max-width: 390px;
+    max-width: 450px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -32,20 +36,28 @@ body{
     font-size: 1.2rem;
 }
 #cidade1, #ibge1{
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #cidade{
-    width: 150%;
+    width: 180%;
 
 }
 .uf input{
-    width: 48%;
-    margin-left: 90px;
+    width: 30%;
+    margin-left: 163px;
 }
 #ibge{
-    width: 150%;
+    width: 180%;
 }
 .uf label{
-    margin-left: 90px;
+    margin-left: 163px;
+}
+.form-row small{
+    bottom: 0;
+    left: 0;
+    visibility: visible;
+    font-size: 1.2rem;
+    color: red;
 }
