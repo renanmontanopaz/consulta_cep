@@ -7,7 +7,7 @@ body{
 .contanner{
     margin: 0 auto;
     width: 95%;
-    max-width: 350px;
+    max-width: 390px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -40,7 +40,7 @@ body{
 
 }
 .uf input{
-    width: 40%;
+    width: 48%;
     margin-left: 90px;
 }
 #ibge{
