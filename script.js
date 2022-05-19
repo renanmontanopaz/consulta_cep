@@ -42,7 +42,7 @@ async function callbackform(resposta){
         inputs.value = ""
     }else {
         cep.style.borderColor = "green"
-        await delay(2);
+        await delay(1);
         rua.value = resposta.logradouro;
         bairro.value = resposta.bairro;
         cidade.value = resposta.localidade;
